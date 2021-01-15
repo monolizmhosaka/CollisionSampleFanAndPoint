@@ -7,6 +7,15 @@
 #include "Engine/Input.h"
 #include "Utility/Vec.h"
 
+//DirectXを使用してます。 ↓インストール方法
+//https://qiita.com/nisoka/items/f501a6cc7bc3636611c4
+//S1023エラーは、このサイトだと「Microsoft Visual C++ 20xx Redistributable XXX をかたっぱしからアンインストール」
+//と書いてあるが、microsoftの公式では2010系だけアンインストールすればOKとの記述なのでそちらに従うこと。
+//
+//https://docs.microsoft.com/ja-jp/troubleshoot/windows/win32/s1023-error-when-you-install-directx-sdk
+//
+//DirectXを入れると違うバージョンが入るので、必要なら2010の最新バージョンを入れてください。
+
 // 点
 struct Point
 {
